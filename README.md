@@ -120,6 +120,7 @@ caso contrário escolha na lista; <br>
  - Clique no botão `Select as Default resource`
  - e depois clique no botão `X` para fechar a janela.
 <br><br>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img width="522" alt="image" src="https://github.com/mstrulenque/AI-Azure-Vision-Studio_Detect-FaceLAB/assets/63933792/6aa1a3e5-d717-411c-b23a-81d35868f786">
 
@@ -130,5 +131,80 @@ caso contrário escolha na lista; <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Após Preparação do Ambiente ter sido Finalizado com Sucesso. Vamos inicia o LAB)
 
 <br>
+
+## 1 - Acesse o `Vision Studio`: <a href="https://portal.vision.cognitive.azure.com"> <img width="120" alt="image" src="https://github.com/mstrulenque/AI-Azure-Vision-Studio_Detect-FaceLAB/assets/63933792/30d79834-9020-4fc0-ac21-daf6b3a32910"></a> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; https://portal.vision.cognitive.azure.com
+  
+## 2 - LAB - `Detect Faces`
+
+2.1 - Na página `Home - Get Start with Vision`: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     ▶️  Clique na Guia `Face` ; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     ▶️  Clique no link `Try it out` do box `Detect faces in an image` ; <br>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="522" alt="image" src="https://github.com/mstrulenque/AI-Azure-Vision-Studio_Detect-FaceLAB/assets/63933792/bd9ea47c-1ed4-45a5-beec-7b10e13c59d7">
+
+## 3 - LAB - `Detect Faces`
+
+3.1 `Teste 1` - Imagem - Atores Seriado "Breaking Bad: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.1.1 - Escolhendo a Imagem 1: `breaking_bad.png` - pasta: `input` - deste repositório GitHub: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          ▶️  Na página `Detect Faces in an image` ; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          ▶️ no Box `Drag and Drop File on File here` ; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          ▶️ Clique no link `Browse for a file` ; <br>
+          
+<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="296" alt="image" src="https://github.com/mstrulenque/AI-Azure-Vision-Studio_Detect-FaceLAB/assets/63933792/33b6b78e-859e-4697-adfe-e0c225ee0c30">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          ▶️  Escolha o arquivo `breaking_bad` da pasta `input` deste repositório GitHub;
+   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="488" alt="image" src="https://github.com/mstrulenque/AI-Azure-Vision-Studio_Detect-FaceLAB/assets/63933792/ffd0bfcf-a3aa-40c7-81db-783b4639b38e">
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.1.2 - `Resultado do Processamento` (Imagem 1), pelo `Vision Studio`: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.1.2.1 - Resultado - `Detected Attributes`: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="478" alt="image" src="https://github.com/mstrulenque/AI-Azure-Vision-Studio_Detect-FaceLAB/assets/63933792/11578f29-aec6-4aa3-b5d2-4f172ae48f4a">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.1.2.2 - Resultado - `JSON`: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="478" alt="image" src="https://github.com/mstrulenque/AI-Azure-Vision-Studio_Detect-FaceLAB/assets/63933792/b53b0216-5a2d-436d-b7f8-3b5305b2e7c0">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.1.2.3 - Resultado - `JSON` - Em Arquivo: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Encontra-se na pasta `output` deste repositório: 
+
+<a href = "https://github.com/mstrulenque/AI-Azure-Vision-Studio_Detect-FaceLAB/blob/main/output/face-recognition_img-1_breaking-bad.json" target="_blank"> clique aqui </a>
+
+
+
+
+
+
+
+
+
+
 
 
