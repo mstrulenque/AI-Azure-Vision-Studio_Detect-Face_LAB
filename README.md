@@ -2,13 +2,13 @@
 
 ---
 
-**LAB Utilizando**: Microsoft **Azure AI | Vision Studio**
+`LAB Utilizando` : Microsoft **Azure AI | Vision Studio**
 
-**Descrição do LAB**: 
+`Descrição do LAB` : 
 
 LAB - com o passo-a-passo em texto e print screen, configurando o recurso Azure AI Services, para realização de atividade de detecção de Face em uma imagem e realização de Testes com 2 imagens com as fotos dos personagens do: Filme - De Volta para o Futuro e Seriado: Breaking Bad.
      
-**Ações que serão realizadas**:
+`Ações que serão realizadas` :
 
  - `Azure`:
    - Criar um Resource Group
@@ -17,7 +17,7 @@ LAB - com o passo-a-passo em texto e print screen, configurando o recurso Azure 
   - `Vision Studio`
     
      - Configuração:
-       -   Selecionar um Resource para utilizar com default na utilizaçãomo melhor no treinamento
+       -   Selecionar um Resource para utilizar com default na utilização dos Testes de Detect Faces
     
      - LAB:
        - Teste 1:
@@ -32,6 +32,19 @@ LAB - com o passo-a-passo em texto e print screen, configurando o recurso Azure 
          - Verificar os resultados:
            - "Detect Attributes"
            - "JSON". (Arquivo JSON completo encontra-se na Pasta "output" neste repositório do GitHub)   
+
+`Arquivos deste Repositório GitHub` : <br>
+
+▶️  `README.MD`                  - Passo-a-Passo com Print Screen's; <br><br>
+▶️  `input/breaking_bad.png`     - imagem c/ Atores do Seriado: "Breaking Bad", para o Teste 1 de Detect Faces; <br>
+▶️  `input/Bck_2_the_future.png` - imagem c/ Atores do Filme: "Back to The Future", para o Teste 2 de Detect Faces; <br><br>
+▶️  `output/face-detection_output_img-1_breaking-bad_atributos.png`  - imagem Resultado Teste 1 de Detect Faces - Atributos; <br>
+▶️  `output/face-detection_output_img-1_breaking-bad_json.png`       - imagem Resultado Teste 1 de Detect Faces - Json; <br>
+▶️  `output/face-recognition_img-1_breaking-bad.json`                - arq JSON Resultado Teste 1 de Detect Faces; <br><br>
+▶️  `output/face-detection_output_img-2_bck-2-future_atributos.png`  - imagem Resultado Teste 2 de Detect Faces - Atributos;<br>
+▶️  `output/face-detection_output_img-2_bck-2-future_json.png`       - imagem Resultado Teste 2 de Detect Faces - Json;<br>
+▶️  `output/face-detection_img-2_Bck-2-future.json`                  - arq JSON Resultado Teste 2 de Detect Faces;<br>
+
 ---
 
 # 👷 - Preparando Ambiente para realizar o LAB: 
