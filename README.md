@@ -51,14 +51,15 @@ LAB - com o passo-a-passo em texto e print screen, configurando o recurso Azure 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img width="228" alt="image" src="https://github.com/mstrulenque/AI-Azure-Vision-Studio_Detect-FaceLAB/assets/63933792/dcefd5aa-08ad-42b2-896d-398dc968cbf7">
 
-3.2 - Na página `Create a Resource` no Menu Lateral Esquerdo:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-- Em `Categories`, Clique em `AI + Machine Learning`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-- Clique no Link `Create` do Serviço `Azure AI services` na coluna esquerda
-<br>
+3.2 - Na página `Create a Resource` no Menu Lateral Esquerdo: <br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+▶️  Em `Categories`, Clique em `AI + Machine Learning` ;  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+▶️  Clique no Link `Create` do Serviço `Azure AI services` na coluna esquerda;  <br>
+<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img width="419" alt="image" src="https://github.com/mstrulenque/AI-Azure-Vision-Studio_Detect-FaceLAB/assets/63933792/fa9355ef-2398-45de-bd6f-99535cc2a0a1">
 
 3.3 - Criar Resource Group preenchendo os campos: <br>
@@ -115,13 +116,16 @@ caso contrário escolha na lista; <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img width="522" alt="image" src="https://github.com/mstrulenque/AI-Azure-Vision-Studio_Detect-FaceLAB/assets/63933792/99fcbdd4-ad9c-4712-a4fb-d35efab21133">
 
-5.2 - Na página `Select a resource to work with`:
- - Selecione o Resource criado `instance-azure-ai-services`;
- - Clique no botão `Select as Default resource`
- - e depois clique no botão `X` para fechar a janela.
-<br><br>
+5.2 - Na página `Select a resource to work with`: <br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+▶️  Selecione o Resource criado `instance-azure-ai-services` ; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+▶️  Clique no botão `Select as Default resource` ; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+▶️  e depois clique no botão `X` para fechar a janela; <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img width="522" alt="image" src="https://github.com/mstrulenque/AI-Azure-Vision-Studio_Detect-FaceLAB/assets/63933792/6aa1a3e5-d717-411c-b23a-81d35868f786">
 
 
@@ -150,7 +154,7 @@ caso contrário escolha na lista; <br>
 
 ## 3 - LAB - `Detect Faces`
 
-3.1 `Teste 1` - Imagem - Atores Seriado "Breaking Bad: <br>
+3.1 `Teste 1` - Imagem - Atores Seriado `Breaking Bad` : <br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 3.1.1 - Escolhendo a Imagem 1: `breaking_bad.png` - pasta: `input` - deste repositório GitHub: <br>
@@ -168,7 +172,7 @@ caso contrário escolha na lista; <br>
 <img width="296" alt="image" src="https://github.com/mstrulenque/AI-Azure-Vision-Studio_Detect-FaceLAB/assets/63933792/33b6b78e-859e-4697-adfe-e0c225ee0c30">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          ▶️  Escolha o arquivo `breaking_bad` da pasta `input` deste repositório GitHub;
+          ▶️  Escolha o arquivo `breaking_bad.png` da pasta `input` deste repositório GitHub;
    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img width="488" alt="image" src="https://github.com/mstrulenque/AI-Azure-Vision-Studio_Detect-FaceLAB/assets/63933792/ffd0bfcf-a3aa-40c7-81db-783b4639b38e">
@@ -192,10 +196,60 @@ caso contrário escolha na lista; <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 3.1.2.3 - Resultado - `JSON` - Em Arquivo: <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Encontra-se na pasta `output` deste repositório: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+▶️  Encontra-se na pasta `output` deste repositório: <a href = "https://github.com/mstrulenque/AI-Azure-Vision-Studio_Detect-FaceLAB/blob/main/output/face-recognition_img-1_breaking-bad.json" target="_blank"> clique aqui </a>
 
-<a href = "https://github.com/mstrulenque/AI-Azure-Vision-Studio_Detect-FaceLAB/blob/main/output/face-recognition_img-1_breaking-bad.json" target="_blank"> clique aqui </a>
+---
+
+3.2 `Teste 2` - Imagem - Atores Filme `De Volta para o Futuro` : <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.2.1 - Escolhendo a Imagem 2: `Bck_2_the_future.png` - pasta: `input` - deste repositório GitHub: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          ▶️  Na página `Detect Faces in an image` ; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          ▶️ no Box `Drag and Drop File on File here` ; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          ▶️ Clique no link `Browse for a file` ; <br>
+          
+<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="296" alt="image" src="https://github.com/mstrulenque/AI-Azure-Vision-Studio_Detect-FaceLAB/assets/63933792/33b6b78e-859e-4697-adfe-e0c225ee0c30">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          ▶️  Escolha o arquivo `Bck_2_the_future.png` da pasta `input` deste repositório GitHub;
+   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="480" alt="image" src="https://github.com/mstrulenque/AI-Azure-Vision-Studio_Detect-FaceLAB/assets/63933792/3413f6fc-364d-48c4-9cf0-53a03ad2d6f7">
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.2.2 - `Resultado do Processamento` (Imagem 2), pelo `Vision Studio`: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.2.2.1 - Resultado - `Detected Attributes`: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="497" alt="image" src="https://github.com/mstrulenque/AI-Azure-Vision-Studio_Detect-FaceLAB/assets/63933792/784c8c13-3ea5-46ed-8ba2-878d07170a97">
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.2.2.2 - Resultado - `JSON`: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="497" alt="image" src="https://github.com/mstrulenque/AI-Azure-Vision-Studio_Detect-FaceLAB/assets/63933792/d60a5fa9-8a5b-4bba-9226-e21fda374753">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.2.2.3 - Resultado - `JSON` - Em Arquivo: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+▶️  Encontra-se na pasta `output` deste repositório: <a href = "https://github.com/mstrulenque/AI-Azure-Vision-Studio_Detect-FaceLAB/blob/main/output/face-detection_img-2_Bck-2-future.json" target="_blank"> clique aqui </a>
+
+
+
+
 
 
 
